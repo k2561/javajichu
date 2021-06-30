@@ -1,0 +1,34 @@
+		第四章选择结构（二）
+一、Switch的结构语法：
+	switch（变量）{
+		case 1:
+			//代码
+		break;
+		case 2:
+			//代码
+		break;
+		default :
+			//代码
+		break;
+	}
+2.switch：相当于一个开关，后面的括号里面可以是int short byte char 枚举类型 String类型的值
+3.case后面通常是一个固定的值，int short byte char 枚举类型 String类型
+4.default：是默认的意思。如果找不到对应的case语句，程序就找default
+5.break:表示停止，每条case语句后面一般都需要加，如果不加，则程序继续往下执行。
+6.switch语句和if--else语句的区别：
+	（1）他两都是选择结构。
+	（2）switch只能处理等值条件判断的需求，而if选择结构可以处理范围的需求。
+	（3）switch能处理的if都可以处理，if能处理的switch不一定能处理。
+	
+	
+	
+
+
+
+
+
+
+
+
+ 	
+	

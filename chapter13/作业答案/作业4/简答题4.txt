@@ -1,0 +1,19 @@
+运行结果：编译报错。
+修改为：
+import java.util.*;
+public class Javatest {	
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Javatest j=new Javatest();
+		System.out .print("请输入第一个数：");
+		int num1=input.nextInt();
+		System.out .print("请输入第二个数：");
+		int num2=input.nextInt();	
+		System.out .print("二数的平均值为："+j.avg(num1,num2));
+	}
+	public int avg(int big,int small){
+		int money=0;
+		money=(big+small)/2;		
+		return money;
+	}
+}

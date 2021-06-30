@@ -1,0 +1,53 @@
+			第十五章字符串
+一、使用String对象存储字符串：
+	Stirng s = "hello word";
+	String s = new String ();
+	String s = new Stirng("hello word");
+二、String类位于java.lang包中。
+三、String类的功能：
+	1.获得字符串的长度。
+		语法：字符串.length();返回一个int类型的值，空格也算一个长度
+	2.对两个字符串进行比较。
+		语法：字符串.equals();
+		注意：==比较的是地址，equals比较的是值。
+	3.连接两个字符串。
+		语法：字符串.concat("字符串2")
+		第二种方法可以直接使用+号键，eg:"hello"+"，word",输出"hello,word"
+	4.提取一个字符串中的某一部分。
+		语法：(1)字符串.indexOf(int n);
+				 字符串.indexOf(String str);
+		提取第一个出现的字符或者字符串				 
+				(2)字符串.lastIndexOf(int n);
+					字符串.lastIndexOf(String str);
+		提取最后一个出现的字符或者字符串
+				(3)字符串.substring(int n):提取从位置索引开始的字符串部分
+				(4)字符串.substring(int beigen,int end),提取begin到end之间的字符串部分
+				(5)字符串.trim()，清除字符串之间的空格
+	5.不区分大小写：字符串.equalslgnoreCase();
+	6.转换成大写：字符串.toUpperCase();
+	7.转换成小写：字符串.toLowerCase();
+四、StringBuffer类：
+	1.声明并初始化
+		StringBuffer sb = new StringBuffer();
+		//声明一个字符串“青春无悔”
+		StringBuffer sb = new StringBuffer("青春无悔");
+	2.常用的方法：
+		(1)toString():转换成String类型
+		(2)append():
+			语法：字符串1.append("字符串2")，将字符串2追加到字符串1里面来.
+		(3)insert():
+			语法：字符串1.insert(位置，参数)：将字符串插入到指定的位置
+				
+				
+				
+				
+				
+				 
+				 
+				 
+				 
+				 
+	
+	
+	
+	
